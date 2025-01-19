@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='topsis_vardhan_102203268',
-    version='1.0.0',
+    version='1.0.3',
     author='Vardhan Singh Rawat',
     author_email='vardhanrawat1@gmail.com',
     description='A Python package to perform TOPSIS (Technique for Order Preference by Similarity to Ideal Solution)',

@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: topsis-vardhan-102203268
-Version: 1.0.0
+Version: 1.0.3
 Summary: A Python package to perform TOPSIS (Technique for Order Preference by Similarity to Ideal Solution)
 Home-page: https://github.com/vardhan-rawat/topsis_vardhan_102203268
 Author: Vardhan Singh Rawat
@@ -17,17 +17,6 @@ Requires-Dist: pandas
 # topsis_vardhan_102203268
 
 `topsis_vardhan_102203268` is a Python package that implements the Technique for Order Preference by Similarity to Ideal Solution (TOPSIS) method for multi-criteria decision analysis.
-
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-  - [Input File Format](#input-file-format)
-  - [Command-line Usage](#command-line-usage)
-- [TOPSIS Method Explained](#topsis-method-explained)
-- [Example](#example)
-- [Troubleshooting](#troubleshooting)
-- [License](#license)
 
 ## Installation
 
@@ -67,10 +56,6 @@ topsis <input_file> <weights> <impacts> <output_file>
 - `<weights>`: Comma-separated string of weights for the criteria.
 - `<impacts>`: Comma-separated string of '+' or '-' indicating the desirability of the criteria.
 - `<output_file>`: Path to the output CSV file to save the results.
-
-## TOPSIS Method Explained
-
-TOPSIS (Technique for Order Preference by Similarity to Ideal Solution) is a multi-criteria decision-making method. The basic concept is to find the alternative that is closest to the ideal solution and farthest from the nadir solution. The ideal solution maximizes the benefit criteria and minimizes the cost criteria, while the nadir solution does the opposite.
 
 ## Example
 
